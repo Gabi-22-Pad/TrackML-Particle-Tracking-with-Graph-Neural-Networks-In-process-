@@ -8,7 +8,7 @@
 
 **Note:** This is only a prototype of the intended model, which is still under development. Efficiency improvements, parameter adjustments, and even the exploration of new methods for reconstructing trajectories from GNN results must be implemented.
 
-The Large Hadron Collider (LHC) at CERN produces massive amounts of data from particle collisions. The goal of this program is to reconstruct the original paths (tracks) of particles by connecting 3D coordinates (hits) recorded by silicon detectors. We utilize an Interaction Network (IN) to perform Edge Classification, predicting whether a segment between two hits is a real particle trajectory or not.
+The Large Hadron Collider (LHC) at CERN produces massive amounts of data from particle collisions. The goal of this program is to reconstruct the original paths (tracks) of particles by connecting 3D coordinates (hits) recorded by silicon detectors. We utilize an Interaction Network (IN) to perform Edge Classification, predicting whether a segment between two hits is a real particle trajectory or not. The original data can be found at (https://www.kaggle.com/c/trackml-particle-identification). 
 
 This project implements a **Graph Neural Network (GNN)**, specifically an **Interaction Network (IN)**, to reconstruct particle trajectories from the **TrackML Particle Identification** challenge dataset.
 
