@@ -2,7 +2,7 @@
 
 ## By Gabriel Padilla Haro
 
-![MLP](images/mlp.png)
+![Tracks](images/tracks.png)
 
 ## 🛠️ Description
 
