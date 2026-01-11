@@ -28,6 +28,8 @@ We build the graph by applying physical constraints to limit the number of edges
 * **Angular Difference ($\Delta \phi$)**: Only hits with small angular changes are connected, reflecting high-momentum trajectories.
 * **Z-Distance ($\Delta z$)**: Limits connections between hits that are physically too far apart along the beam axis.
 
+![Tracks](images/Tracks2.png)
+
 ### 3. GNN Architecture (Interaction Network)
 The `TrackNet` model utilizes a **Message Passing** paradigm:
 * **Edge MLP (Interaction)**: Analyzes 15 geometric features between two hits to determine their affinity.
